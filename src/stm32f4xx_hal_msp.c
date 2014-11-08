@@ -1,7 +1,7 @@
 /**
   ******************************************************************************
   * File Name          : stm32f4xx_hal_msp.c
-  * Date               : 08/11/2014 17:00:19
+  * Date               : 08/11/2014 17:12:03
   * Description        : This file provides code for the MSP Initialization 
   *                      and de-Initialization codes.
   ******************************************************************************
@@ -147,10 +147,17 @@ void HAL_SPI_MspInit(SPI_HandleTypeDef* hspi)
     __SPI2_CLK_ENABLE();
   
     /**SPI2 GPIO Configuration    
-    PB13     ------> SPI2_SCK
-    PB15     ------> SPI2_MOSI 
+    PC3     ------> SPI2_MOSI
+    PB13     ------> SPI2_SCK 
     */
-    GPIO_InitStruct.Pin = GPIO_PIN_13|GPIO_PIN_15;
+    GPIO_InitStruct.Pin = GPIO_PIN_3;
+    GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
+    GPIO_InitStruct.Pull = GPIO_NOPULL;
+    GPIO_InitStruct.Speed = GPIO_SPEED_LOW;
+    GPIO_InitStruct.Alternate = GPIO_AF5_SPI2;
+    HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
+
+    GPIO_InitStruct.Pin = GPIO_PIN_13;
     GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
     GPIO_InitStruct.Pull = GPIO_NOPULL;
     GPIO_InitStruct.Speed = GPIO_SPEED_LOW;
@@ -195,10 +202,12 @@ void HAL_SPI_MspDeInit(SPI_HandleTypeDef* hspi)
     __SPI2_CLK_DISABLE();
   
     /**SPI2 GPIO Configuration    
-    PB13     ------> SPI2_SCK
-    PB15     ------> SPI2_MOSI 
+    PC3     ------> SPI2_MOSI
+    PB13     ------> SPI2_SCK 
     */
-    HAL_GPIO_DeInit(GPIOB, GPIO_PIN_13|GPIO_PIN_15);
+    HAL_GPIO_DeInit(GPIOC, GPIO_PIN_3);
+
+    HAL_GPIO_DeInit(GPIOB, GPIO_PIN_13);
 
   /* USER CODE BEGIN SPI2_MspDeInit 1 */
 
