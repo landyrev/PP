@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="iar.arm.toolchain.project.exe.configuration.debug.v5.4.0.290075819">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="iar.arm.toolchain.project.exe.configuration.debug.v5.4.0.290075819" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="com.iar.cdt.errorParser.com.iar.cdt.errorParser.ErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="com.iar.cdt.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug,org.eclipse.cdt.build.core.buildArtefactType=com.iar.cdt.buildArtefactType.exe" cleanCommand="rm -rf" description="" id="iar.arm.toolchain.project.exe.configuration.debug.v5.4.0.290075819" name="Debug" parent="iar.arm.toolchain.project.exe.configuration.debug.v5.4.0">
+					<folderInfo id="iar.arm.toolchain.project.exe.configuration.debug.v5.4.0.290075819." name="/" resourcePath="">
+						<toolChain id="iar.arm.toolchain.project.exe.configuration.debug.toolchain.v5.4.0.1018287573" name="IAR Toolchain for ARM - 7.x" superClass="iar.arm.toolchain.project.exe.configuration.debug.toolchain.v5.4.0">
+							<option id="iar.arm.toolchain.option.cpuCore.v5.4.0.595850799" name="Processor core:" superClass="iar.arm.toolchain.option.cpuCore.v5.4.0" value="iar.arm.toolchain.option.cpuCore.Cortex-M4F.v5.5.0" valueType="enumerated"/>
+							<option id="iar.arm.toolchain.option.endianMode.v5.4.0.746152840" name="Endian mode:" superClass="iar.arm.toolchain.option.endianMode.v5.4.0"/>
+							<option id="iar.arm.toolchain.option.bigEndianFormat.v5.4.0.526597074" name="Big-endian format:" superClass="iar.arm.toolchain.option.bigEndianFormat.v5.4.0"/>
+							<option id="iar.arm.toolchain.option.printfFormatter.v5.4.0.1309230355" name="Printf formatter:" superClass="iar.arm.toolchain.option.printfFormatter.v5.4.0"/>
+							<option id="iar.arm.toolchain.option.scanfFormatter.v5.4.0.141835993" name="Scanf formatter:" superClass="iar.arm.toolchain.option.scanfFormatter.v5.4.0"/>
+							<option id="iar.arm.toolchain.option.bufferedOutput.v6.1.0.1259514573" name="Buffered terminal output" superClass="iar.arm.toolchain.option.bufferedOutput.v6.1.0"/>
+							<option id="iar.arm.toolchain.option.mfc.v5.5.2.1979762092" name="Enable multi-file compilation" superClass="iar.arm.toolchain.option.mfc.v5.5.2"/>
+							<option id="iar.arm.toolchain.option.fpu.v5.4.0.42529313" name="FPU:" superClass="iar.arm.toolchain.option.fpu.v5.4.0"/>
+							<option id="iar.arm.toolchain.option.libraryConfig.v5.4.0.484472209" name="Library:" superClass="iar.arm.toolchain.option.libraryConfig.v5.4.0"/>
+							<option id="iar.arm.toolchain.option.misra-c.enable.1387767464" name="Enable MISRA-C" superClass="iar.arm.toolchain.option.misra-c.enable"/>
+							<option id="iar.arm.toolchain.option.deviceInfo.v5.4.3.1901238841" name="Device info storage option" superClass="iar.arm.toolchain.option.deviceInfo.v5.4.3" value="config/devices/ST/STM32F405/STM32F405RG.menu" valueType="string"/>
+							<option id="iar.arm.toolchain.option.deviceName.v5.5.0.862202018" name="Device (change with Project &gt; Select Device...)" superClass="iar.arm.toolchain.option.deviceName.v5.5.0" value="ST STM32F405RG" valueType="string"/>
+							<option id="iar.arm.toolchain.option.deviceTag.v6.3.1.1649814537" name="Device tag storage option" superClass="iar.arm.toolchain.option.deviceTag.v6.3.1" value="STM32F405RG" valueType="string"/>
+							<option id="iar.arm.toolchain.option.semihosted.v5.4.0.457977468" name="Include semihosting interface" superClass="iar.arm.toolchain.option.semihosted.v5.4.0"/>
+							<option id="iar.arm.toolchain.option.lowLevelInterfaceCortex.v5.4.0.1973809980" name="Library low-level&#10;interface implementation&#10;(Cortex-M cores):" superClass="iar.arm.toolchain.option.lowLevelInterfaceCortex.v5.4.0"/>
+							<targetPlatform binaryParser="org.eclipse.cdt.core.ELF" id="iar.arm.toolchain.targetPlatform.v5.4.0.164683829" isAbstract="false" name="IAR Target platform for ARM (ELF)" osList="win32,linux" superClass="iar.arm.toolchain.targetPlatform.v5.4.0"/>
+							<builder buildPath="${workspace_loc:/PP}/Debug" id="iar.arm.toolchain.builder.2.518353919" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="CDT Internal Builder" superClass="iar.arm.toolchain.builder.2"/>
+							<tool id="iar.arm.toolchain.compiler.v5.4.1.1066681900" name="IAR C/C++ Compiler for ARM" superClass="iar.arm.toolchain.compiler.v5.4.1">
+								<option defaultValue="true" id="iar.arm.toolchain.compiler.option.debugInfo.v5.4.0.631183813" name="Generate debug information" superClass="iar.arm.toolchain.compiler.option.debugInfo.v5.4.0" valueType="boolean"/>
+								<option defaultValue="iar.arm.toolchain.compiler.option.optLevel.none.v5.4.0" id="iar.arm.toolchain.compiler.option.optLevel.v5.4.0.1643585371" name="Optimization level:" superClass="iar.arm.toolchain.compiler.option.optLevel.v5.4.0" valueType="enumerated"/>
+								<option defaultValue="true" id="iar.arm.toolchain.compiler.option.optCSE.v5.4.0.115685903" name="Disable common subexpression elimination" superClass="iar.arm.toolchain.compiler.option.optCSE.v5.4.0" valueType="boolean"/>
+								<option defaultValue="true" id="iar.arm.toolchain.compiler.option.optUnroll.v5.4.0.699129385" name="Disable loop unrolling" superClass="iar.arm.toolchain.compiler.option.optUnroll.v5.4.0" valueType="boolean"/>
+								<option defaultValue="true" id="iar.arm.toolchain.compiler.option.optInline.v5.4.0.1481222105" name="Disable function inlining" superClass="iar.arm.toolchain.compiler.option.optInline.v5.4.0" valueType="boolean"/>
+								<option defaultValue="true" id="iar.arm.toolchain.compiler.option.optCodeMotion.v5.4.0.1990890486" name="Disable code motion" superClass="iar.arm.toolchain.compiler.option.optCodeMotion.v5.4.0" valueType="boolean"/>
+								<option defaultValue="true" id="iar.arm.toolchain.compiler.option.optAliasAnalysis.v5.4.0.1767891275" name="Disable type-based alias analysis" superClass="iar.arm.toolchain.compiler.option.optAliasAnalysis.v5.4.0" valueType="boolean"/>
+								<option defaultValue="true" id="iar.arm.toolchain.compiler.option.optStaticClustering.v5.4.0.870337617" name="Disable static clustering" superClass="iar.arm.toolchain.compiler.option.optStaticClustering.v5.4.0" valueType="boolean"/>
+								<option defaultValue="true" id="iar.arm.toolchain.compiler.option.optScheduling.v5.4.0.1678631164" name="Disable instruction scheduling" superClass="iar.arm.toolchain.compiler.option.optScheduling.v5.4.0" valueType="boolean"/>
+								<option id="iar.arm.toolchain.compiler.option.cpuMode.v5.4.0.664141663" name="Processor mode:" superClass="iar.arm.toolchain.compiler.option.cpuMode.v5.4.0" value="iar.arm.toolchain.compiler.option.cpuMode.thumb.v5.4.0" valueType="enumerated"/>
+								<option id="iar.arm.toolchain.compiler.option.incPaths.v5.4.0.112307744" name="Additional include directories" superClass="iar.arm.toolchain.compiler.option.incPaths.v5.4.0" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/PP/Drivers/STM32F4xx_HAL_Driver/Inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/PP/Inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/PP/Drivers/CMSIS/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/PP/Drivers/CMSIS/Device/ST/STM32F4xx/Include}&quot;"/>
+								</option>
+								<option id="iar.arm.toolchain.compiler.option.defines.v5.4.0.945167287" name="Defined Symbols:" superClass="iar.arm.toolchain.compiler.option.defines.v5.4.0" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="USE_HAL_DRIVER"/>
+									<listOptionValue builtIn="false" value="STM32F415xx"/>
+								</option>
+								<inputType id="iar.arm.toolchain.compiler.inputType.v5.4.1.1791414186" name="IAR C/C++ Compiler Input Type" superClass="iar.arm.toolchain.compiler.inputType.v5.4.1"/>
+							</tool>
+							<tool id="iar.arm.toolchain.assembler.v5.4.0.1395327352" name="IAR Assembler for ARM" superClass="iar.arm.toolchain.assembler.v5.4.0">
+								<option defaultValue="true" id="iar.arm.toolchain.assembler.option.debugInfo.v5.4.0.1169795750" name="Generate debug information" superClass="iar.arm.toolchain.assembler.option.debugInfo.v5.4.0" valueType="boolean"/>
+								<inputType id="iar.arm.toolchain.assembler.inputType.asmFile.v5.4.0.1781399826" name="IAR Assembler input type for ARM (asm, s)" superClass="iar.arm.toolchain.assembler.inputType.asmFile.v5.4.0"/>
+							</tool>
+							<tool id="iar.arm.toolchain.linker.v5.4.0.2032176056" name="IAR Linker for ARM" superClass="iar.arm.toolchain.linker.v5.4.0">
+								<option id="iar.arm.toolchain.linker.option.icfFile.v5.4.0.783001580" name="Linker configuration file:" superClass="iar.arm.toolchain.linker.option.icfFile.v5.4.0" value="C:/Program Files (x86)/IAR Systems/Embedded Workbench 7.0/arm/config/linker/ST/stm32f405xG.icf" valueType="string"/>
+								<option id="iar.arm.toolchain.linker.option.devicePostProcess.v5.5.2.1829493590" name="IElfToolPostProcess" superClass="iar.arm.toolchain.linker.option.devicePostProcess.v5.5.2"/>
+								<option id="iar.arm.toolchain.linker.option.performVFE.v6.2.2.1816195710" name="Perform C++ Virtual Function Elimination" superClass="iar.arm.toolchain.linker.option.performVFE.v6.2.2"/>
+								<option id="iar.arm.toolchain.linker.option.forceVFE.v6.2.2.357947138" name="Even if some modules are missing VFE information" superClass="iar.arm.toolchain.linker.option.forceVFE.v6.2.2"/>
+								<inputType id="iar.arm.toolchain.linker.inputType.object.v5.4.0.1562636388" name="IAR Linker Input Type for ARM (o)" superClass="iar.arm.toolchain.linker.inputType.object.v5.4.0">
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+								</inputType>
+							</tool>
+							<tool id="iar.arm.toolchain.archive.v5.4.0.2114801183" name="IAR Library Builder for ARM" superClass="iar.arm.toolchain.archive.v5.4.0"/>
+						</toolChain>
+					</folderInfo>
+					<folderInfo id="iar.arm.toolchain.project.exe.configuration.debug.v5.4.0.290075819.1708665800" name="/" resourcePath="Inc">
+						<toolChain id="iar.arm.toolchain.project.exe.configuration.debug.toolchain.v5.4.0.334693339" name="IAR Toolchain for ARM - 7.x" superClass="iar.arm.toolchain.project.exe.configuration.debug.toolchain.v5.4.0" unusedChildren="">
+							<option id="iar.arm.toolchain.option.cpuCore.v5.4.0.595850799.1702809646" name="Processor core:" superClass="iar.arm.toolchain.option.cpuCore.v5.4.0.595850799"/>
+							<option id="iar.arm.toolchain.option.endianMode.v5.4.0.746152840.988449220" name="Endian mode:" superClass="iar.arm.toolchain.option.endianMode.v5.4.0.746152840"/>
+							<option id="iar.arm.toolchain.option.bigEndianFormat.v5.4.0.526597074.705271883" name="Big-endian format:" superClass="iar.arm.toolchain.option.bigEndianFormat.v5.4.0.526597074"/>
+							<option id="iar.arm.toolchain.option.printfFormatter.v5.4.0.1309230355.495885651" name="Printf formatter:" superClass="iar.arm.toolchain.option.printfFormatter.v5.4.0.1309230355"/>
+							<option id="iar.arm.toolchain.option.scanfFormatter.v5.4.0.141835993.415280929" name="Scanf formatter:" superClass="iar.arm.toolchain.option.scanfFormatter.v5.4.0.141835993"/>
+							<option id="iar.arm.toolchain.option.bufferedOutput.v6.1.0.1259514573.226726445" name="Buffered terminal output" superClass="iar.arm.toolchain.option.bufferedOutput.v6.1.0.1259514573"/>
+							<option id="iar.arm.toolchain.option.mfc.v5.5.2.1979762092.300512828" name="Enable multi-file compilation" superClass="iar.arm.toolchain.option.mfc.v5.5.2.1979762092"/>
+							<option id="iar.arm.toolchain.option.fpu.v5.4.0.42529313.1228238869" name="FPU:" superClass="iar.arm.toolchain.option.fpu.v5.4.0.42529313"/>
+							<option id="iar.arm.toolchain.option.libraryConfig.v5.4.0.484472209.1420450901" name="Library:" superClass="iar.arm.toolchain.option.libraryConfig.v5.4.0.484472209"/>
+							<option id="iar.arm.toolchain.option.misra-c.enable.1387767464.252078746" name="Enable MISRA-C" superClass="iar.arm.toolchain.option.misra-c.enable.1387767464"/>
+							<option id="iar.arm.toolchain.option.deviceInfo.v5.4.3.1901238841.884749524" name="Device info storage option" superClass="iar.arm.toolchain.option.deviceInfo.v5.4.3.1901238841"/>
+							<option id="iar.arm.toolchain.option.deviceName.v5.5.0.862202018.305204661" name="Device (change with Project &gt; Select Device...)" superClass="iar.arm.toolchain.option.deviceName.v5.5.0.862202018"/>
+							<option id="iar.arm.toolchain.option.deviceTag.v6.3.1.1649814537.1769172105" name="Device tag storage option" superClass="iar.arm.toolchain.option.deviceTag.v6.3.1.1649814537"/>
+							<option id="iar.arm.toolchain.option.semihosted.v5.4.0.457977468.1481079521" name="Include semihosting interface" superClass="iar.arm.toolchain.option.semihosted.v5.4.0.457977468"/>
+							<option id="iar.arm.toolchain.option.lowLevelInterfaceCortex.v5.4.0.1973809980.362509169" name="Library low-level&#10;interface implementation&#10;(Cortex-M cores):" superClass="iar.arm.toolchain.option.lowLevelInterfaceCortex.v5.4.0.1973809980"/>
+							<targetPlatform binaryParser="org.eclipse.cdt.core.ELF" id="iar.arm.toolchain.targetPlatform.v5.4.0" isAbstract="false" name="IAR Target platform for ARM (ELF)" osList="win32,linux" superClass="iar.arm.toolchain.targetPlatform.v5.4.0"/>
+							<tool id="iar.arm.toolchain.compiler.v5.4.1.1453670367" name="IAR C/C++ Compiler for ARM" superClass="iar.arm.toolchain.compiler.v5.4.1.1066681900">
+								<option id="iar.arm.toolchain.compiler.option.incPaths.v5.4.0.1237989124" name="Additional include directories" superClass="iar.arm.toolchain.compiler.option.incPaths.v5.4.0" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/PP/Inc}&quot;"/>
+								</option>
+								<inputType id="iar.arm.toolchain.compiler.inputType.v5.4.1.1295832437" name="IAR C/C++ Compiler Input Type" superClass="iar.arm.toolchain.compiler.inputType.v5.4.1"/>
+							</tool>
+							<tool id="iar.arm.toolchain.assembler.v5.4.0.1659881972" name="IAR Assembler for ARM" superClass="iar.arm.toolchain.assembler.v5.4.0.1395327352">
+								<inputType id="iar.arm.toolchain.assembler.inputType.asmFile.v5.4.0.1119330332" name="IAR Assembler input type for ARM (asm, s)" superClass="iar.arm.toolchain.assembler.inputType.asmFile.v5.4.0"/>
+							</tool>
+							<tool id="iar.arm.toolchain.linker.v5.4.0.1194110065" name="IAR Linker for ARM" superClass="iar.arm.toolchain.linker.v5.4.0.2032176056"/>
+							<tool id="iar.arm.toolchain.archive.v5.4.0.568854666" name="IAR Library Builder for ARM" superClass="iar.arm.toolchain.archive.v5.4.0.2114801183"/>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="iar/startup_stm32f401xc.s|iar/startup_stm32f401xe.s|iar/startup_stm32f407xx.s|iar/startup_stm32f411xe.s|iar/startup_stm32f415xx.s|iar/startup_stm32f417xx.s|iar/startup_stm32f427xx.s|iar/startup_stm32f429xx.s|iar/startup_stm32f437xx.s|iar/startup_stm32f439xx.s|arm/|gcc/" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates"/>
+						<entry excluding="stm32f4xx_hal_adc_ex.c|stm32f4xx_hal_adc.c|stm32f4xx_hal_crc.c|stm32f4xx_hal_cryp_ex.c|stm32f4xx_hal_cryp.c|stm32f4xx_hal_dac_ex.c|stm32f4xx_hal_dac.c|stm32f4xx_hal_dcmi.c|stm32f4xx_hal_dma2d.c|stm32f4xx_hal_eth.c|stm32f4xx_hal_hash_ex.c|stm32f4xx_hal_hash.c|stm32f4xx_hal_hcd.c|stm32f4xx_hal_irda.c|stm32f4xx_hal_iwdg.c|stm32f4xx_hal_ltdc.c|stm32f4xx_hal_msp_template.c|stm32f4xx_hal_nand.c|stm32f4xx_hal_nor.c|stm32f4xx_hal_pccard.c|stm32f4xx_hal_pcd_ex.c|stm32f4xx_hal_pcd.c|stm32f4xx_hal_rng.c|stm32f4xx_hal_rtc_ex.c|stm32f4xx_hal_rtc.c|stm32f4xx_hal_sai.c|stm32f4xx_hal_sd.c|stm32f4xx_hal_sdram.c|stm32f4xx_hal_smartcard.c|stm32f4xx_hal_sram.c|stm32f4xx_hal_usart.c|stm32f4xx_hal_wwdg.c|stm32f4xx_ll_fmc.c|stm32f4xx_ll_fsmc.c|stm32f4xx_ll_sdmmc.c|stm32f4xx_ll_usb.c" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="Drivers/STM32F4xx_HAL_Driver/Src"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="iar.arm.toolchain.project.exe.configuration.release.v5.4.0.1606059645">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="iar.arm.toolchain.project.exe.configuration.release.v5.4.0.1606059645" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="com.iar.cdt.errorParser.com.iar.cdt.errorParser.ErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="com.iar.cdt.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release,org.eclipse.cdt.build.core.buildArtefactType=com.iar.cdt.buildArtefactType.exe" cleanCommand="rm -rf" description="" id="iar.arm.toolchain.project.exe.configuration.release.v5.4.0.1606059645" name="Release" parent="iar.arm.toolchain.project.exe.configuration.release.v5.4.0">
+					<folderInfo id="iar.arm.toolchain.project.exe.configuration.release.v5.4.0.1606059645." name="/" resourcePath="">
+						<toolChain id="iar.arm.toolchain.project.exe.configuration.release.toolchain.v5.4.0.627324435" name="IAR Toolchain for ARM - 7.x" superClass="iar.arm.toolchain.project.exe.configuration.release.toolchain.v5.4.0">
+							<option id="iar.arm.toolchain.option.cpuCore.v5.4.0.571599270" name="Processor core:" superClass="iar.arm.toolchain.option.cpuCore.v5.4.0" value="iar.arm.toolchain.option.cpuCore.Cortex-M4F.v5.5.0" valueType="enumerated"/>
+							<option id="iar.arm.toolchain.option.endianMode.v5.4.0.291721941" name="Endian mode:" superClass="iar.arm.toolchain.option.endianMode.v5.4.0"/>
+							<option id="iar.arm.toolchain.option.bigEndianFormat.v5.4.0.739430480" name="Big-endian format:" superClass="iar.arm.toolchain.option.bigEndianFormat.v5.4.0"/>
+							<option id="iar.arm.toolchain.option.printfFormatter.v5.4.0.1518901221" name="Printf formatter:" superClass="iar.arm.toolchain.option.printfFormatter.v5.4.0"/>
+							<option id="iar.arm.toolchain.option.scanfFormatter.v5.4.0.2141958715" name="Scanf formatter:" superClass="iar.arm.toolchain.option.scanfFormatter.v5.4.0"/>
+							<option id="iar.arm.toolchain.option.bufferedOutput.v6.1.0.883968406" name="Buffered terminal output" superClass="iar.arm.toolchain.option.bufferedOutput.v6.1.0"/>
+							<option id="iar.arm.toolchain.option.mfc.v5.5.2.2070662183" name="Enable multi-file compilation" superClass="iar.arm.toolchain.option.mfc.v5.5.2"/>
+							<option id="iar.arm.toolchain.option.deviceInfo.v5.4.3.227147994" name="Device info storage option" superClass="iar.arm.toolchain.option.deviceInfo.v5.4.3" value="config/devices/ST/STM32F405/STM32F405RG.menu" valueType="string"/>
+							<option id="iar.arm.toolchain.option.fpu.v5.4.0.1549114660" name="FPU:" superClass="iar.arm.toolchain.option.fpu.v5.4.0"/>
+							<option id="iar.arm.toolchain.option.deviceName.v5.5.0.380831342" name="Device (change with Project &gt; Select Device...)" superClass="iar.arm.toolchain.option.deviceName.v5.5.0" value="ST STM32F405RG" valueType="string"/>
+							<option id="iar.arm.toolchain.option.deviceTag.v6.3.1.1000086455" name="Device tag storage option" superClass="iar.arm.toolchain.option.deviceTag.v6.3.1" value="STM32F405RG" valueType="string"/>
+							<targetPlatform binaryParser="org.eclipse.cdt.core.ELF" id="iar.arm.toolchain.targetPlatform.v5.4.0.80899153" isAbstract="false" name="IAR Target platform for ARM (ELF)" osList="win32,linux" superClass="iar.arm.toolchain.targetPlatform.v5.4.0"/>
+							<builder buildPath="${workspace_loc:/PP}/Release" id="iar.arm.toolchain.builder.2.1184657632" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="CDT Internal Builder" superClass="iar.arm.toolchain.builder.2"/>
+							<tool id="iar.arm.toolchain.compiler.v5.4.1.146328184" name="IAR C/C++ Compiler for ARM" superClass="iar.arm.toolchain.compiler.v5.4.1">
+								<option defaultValue="false" id="iar.arm.toolchain.compiler.option.debugInfo.v5.4.0.1018064529" name="Generate debug information" superClass="iar.arm.toolchain.compiler.option.debugInfo.v5.4.0" valueType="boolean"/>
+								<option defaultValue="iar.arm.toolchain.compiler.option.optLevel.highBalance.v5.4.0" id="iar.arm.toolchain.compiler.option.optLevel.v5.4.0.295658540" name="Optimization level:" superClass="iar.arm.toolchain.compiler.option.optLevel.v5.4.0" valueType="enumerated"/>
+								<option id="iar.arm.toolchain.compiler.option.defines.v5.4.0.903906629" name="Defined Symbols:" superClass="iar.arm.toolchain.compiler.option.defines.v5.4.0" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="NDEBUG"/>
+									<listOptionValue builtIn="false" value="STM32F415xx"/>
+									<listOptionValue builtIn="false" value="USE_HAL_DRIVER"/>
+								</option>
+								<option id="iar.arm.toolchain.compiler.option.cpuMode.v5.4.0.387067269" name="Processor mode:" superClass="iar.arm.toolchain.compiler.option.cpuMode.v5.4.0" value="iar.arm.toolchain.compiler.option.cpuMode.thumb.v5.4.0" valueType="enumerated"/>
+								<inputType id="iar.arm.toolchain.compiler.inputType.v5.4.1.772931840" name="IAR C/C++ Compiler Input Type" superClass="iar.arm.toolchain.compiler.inputType.v5.4.1"/>
+							</tool>
+							<tool id="iar.arm.toolchain.assembler.v5.4.0.194593908" name="IAR Assembler for ARM" superClass="iar.arm.toolchain.assembler.v5.4.0">
+								<option defaultValue="false" id="iar.arm.toolchain.assembler.option.debugInfo.v5.4.0.680291859" name="Generate debug information" superClass="iar.arm.toolchain.assembler.option.debugInfo.v5.4.0" valueType="boolean"/>
+								<inputType id="iar.arm.toolchain.assembler.inputType.asmFile.v5.4.0.58875609" name="IAR Assembler input type for ARM (asm, s)" superClass="iar.arm.toolchain.assembler.inputType.asmFile.v5.4.0"/>
+							</tool>
+							<tool id="iar.arm.toolchain.linker.v5.4.0.737650746" name="IAR Linker for ARM" superClass="iar.arm.toolchain.linker.v5.4.0">
+								<option id="iar.arm.toolchain.linker.option.icfFile.v5.4.0.2048403831" name="Linker configuration file:" superClass="iar.arm.toolchain.linker.option.icfFile.v5.4.0" value="C:/Program Files (x86)/IAR Systems/Embedded Workbench 7.0/arm/config/linker/ST/stm32f405xG.icf" valueType="string"/>
+								<option id="iar.arm.toolchain.linker.option.devicePostProcess.v5.5.2.1943619610" name="IElfToolPostProcess" superClass="iar.arm.toolchain.linker.option.devicePostProcess.v5.5.2"/>
+								<inputType id="iar.arm.toolchain.linker.inputType.object.v5.4.0.1674597353" name="IAR Linker Input Type for ARM (o)" superClass="iar.arm.toolchain.linker.inputType.object.v5.4.0">
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+								</inputType>
+							</tool>
+							<tool id="iar.arm.toolchain.archive.v5.4.0.236873671" name="IAR Library Builder for ARM" superClass="iar.arm.toolchain.archive.v5.4.0"/>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="PP.iar.arm.toolchain.project.exe.v5.4.0.648538121" name="Executable (IAR)" projectType="iar.arm.toolchain.project.exe.v5.4.0"/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="org.eclipse.cdt.core.language.mapping">
+		<project-mappings>
+			<content-type-mapping configuration="" content-type="org.eclipse.cdt.core.asmSource" language="com.iar.cdt.arm.language.asm"/>
+			<content-type-mapping configuration="" content-type="org.eclipse.cdt.core.cHeader" language="com.iar.cdt.arm.language.IARc"/>
+			<content-type-mapping configuration="" content-type="org.eclipse.cdt.core.cSource" language="com.iar.cdt.arm.language.IARc"/>
+			<content-type-mapping configuration="" content-type="org.eclipse.cdt.core.cxxHeader" language="com.iar.cdt.arm.language.IARcpp"/>
+			<content-type-mapping configuration="" content-type="org.eclipse.cdt.core.cxxSource" language="com.iar.cdt.arm.language.IARcpp"/>
+		</project-mappings>
+	</storageModule>
+	<storageModule moduleId="refreshScope"/>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="iar.arm.toolchain.project.exe.configuration.debug.v5.4.0.290075819;iar.arm.toolchain.project.exe.configuration.debug.v5.4.0.290075819.;iar.arm.toolchain.compiler.v5.4.1.1066681900;iar.arm.toolchain.compiler.inputType.v5.4.1.1791414186">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.iar.cdt.arm.scanner.IAR_ARM_PerProjectProfile"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="iar.arm.toolchain.project.exe.configuration.release.v5.4.0.1606059645;iar.arm.toolchain.project.exe.configuration.release.v5.4.0.1606059645.;iar.arm.toolchain.compiler.v5.4.1.146328184;iar.arm.toolchain.compiler.inputType.v5.4.1.772931840">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.iar.cdt.arm.scanner.IAR_ARM_PerProjectProfile"/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+</cproject>
